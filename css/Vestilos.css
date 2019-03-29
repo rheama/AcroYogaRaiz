@@ -1,0 +1,153 @@
+* {
+	margin: 15px;
+	border-radius: 10px;
+	font-family: 'Sniglet';
+	color: white;
+	background-color: #72567f;
+}
+
+/* -----------CABECERA--------------  */
+.header {
+	border: 8px;
+	border-color: red;
+	border-style: solid;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.logo{
+	border: 8px;
+	border-color: red;
+	border-style: solid;
+	justify-content: space-around;
+}
+
+.titulo {
+	border: 8px;
+	border-color: red;
+	border-style: solid;
+	justify-content: space-around;
+
+}
+
+.nav {
+	border: 8px;
+	border-color: red;
+	border-style: solid;
+	justify-content: space-around;
+}
+/* --------------------------------- */
+
+/* -----------TEXTOS---------- */
+h1 {
+	font-size: 40px;
+	color: #70e589;
+	text-align: center;
+}	
+
+h2 {
+	font-size: 20px;
+	color: #229b40;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.texto {
+	font-size: 20px;
+	text-align: justify-all;
+}
+
+li {
+	display: inline-block;
+}
+/* --------------------------------- */
+
+/* -----------FORMULARIO------------- */
+
+form {
+	display: flex;
+	align-content: center;
+}
+
+.nombre {
+	border: 8px;
+	border-color: red;
+	border-style: solid;
+	
+}
+
+.celu {
+	border: 8px;
+	border-color: red;
+	border-style: solid;
+	
+}
+
+.hora {
+	border: 8px;
+	border-color: red;
+	border-style: solid;
+	
+}
+
+.mail {
+	border: 8px;
+	border-color: red;
+	border-style: solid;
+	
+
+}
+
+.msj{
+	border: 8px;
+	border-color: red;
+	border-style: solid;
+	
+	
+}
+
+.boton {
+	border-radius: 15px;
+	background-color: grey;
+	color: white;
+	width: 200px;
+	height: 40px;
+	position: relative;
+	right: 350px;
+	top:300px;
+	
+}
+
+textarea, input, horario {
+	background-color: white;
+}
+
+/* ---------------FOOTER----------*/
+
+.redes {
+	border-style: solid;
+	color: red;
+	display: flex;
+
+	flex-direction: column;
+	height: 150px;
+}
+.face {
+	display: flex;
+	align-items: flex-end;
+}
+
+.insta {
+	display: flex;
+	align-items: flex-end;
+}
