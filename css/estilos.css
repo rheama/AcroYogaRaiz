@@ -4,42 +4,65 @@
 	background-color: #392542;
 	margin: 15px;
 	border-radius: 6px;
-
 }
 
 header{
 	display: grid;
 	grid-template-columns: 1fr 4fr 2fr;
 	align-items: center;
-	
 }
+
+.logo {
+	padding-left: 100px;
+}
+
+/* ---------- FORM--------*/
+
+.form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.boton {
+	border-radius: 15px;
+	background-color: grey;
+	align-self: center;
+	color: white;
+	width: 200px;
+	height: 40px;
+	 	
+}
+
+textarea, select, input {
+	background-color: white;
+	color: black;
+}
+
+textarea {
+	width: 300px;
+	height: 150px;
+}
+
+input {
+	height: 30px;
+	width: 300px;
+}
+
+nombre ,cel ,mail {
+
+	padding-left: 150px;
+}
+
+.msj {
+	grid-area: 0 / 1 / 2 / 2;
+}
+
+/* -------FOOTER--------*/
 
 footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
-
-}
-
-
-.boton {
-	border-radius: 15px;
-	background-color: grey;
-	align-items: center;
-	color: white;
-	width: 200px;
-	height: 40px;
-	
-}
-
-textarea, input {
-	background-color: white;
-}
-
-.form {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-
 }
 
 .contacto {
