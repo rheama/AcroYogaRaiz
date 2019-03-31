@@ -21,6 +21,7 @@ header{
 .form {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+
 }
 
 .boton {
@@ -29,8 +30,7 @@ header{
 	color: white;
 	width: 200px;
 	height: 40px;
-	order: 4;
-	 	
+		 	
 }
 
 textarea, select, input {
@@ -38,33 +38,54 @@ textarea, select, input {
 	color: black;
 }
 
+select {
+	height: 30px;
+	width: 200px;
+	font-size: 18px;
+}
+
 textarea {
 	width: 300px;
-	height: 150px;
+	height: 120px;
 }
 
 input {
 	height: 30px;
-	width: 300px;
+	width: 250px;
+	
+
+}
+
+.input {
+	align: center;
 }
 
 .nombre {
-	order:1;
+	padding-left: 200px;
 }
-.cel{
- 	order:5;
+
+.hora {
+		
+}
+
+/*
+.msj {
+	order:2;
+
 }
 .mail {
 	order:3;	
 }
 
-.msj {
-	order:2;	
+.cel{
+ 	order:4;
 }
 
-.hora {
-	order:7;	
-}
+
+
+
+
+
 
 /* -------FOOTER--------*/
 
