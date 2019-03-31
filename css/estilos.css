@@ -26,10 +26,10 @@ header{
 .boton {
 	border-radius: 15px;
 	background-color: grey;
-	align-self: center;
 	color: white;
 	width: 200px;
 	height: 40px;
+	order: 4;
 	 	
 }
 
@@ -48,13 +48,22 @@ input {
 	width: 300px;
 }
 
-nombre ,cel ,mail {
-
-	padding-left: 150px;
+.nombre {
+	order:1;
+}
+.cel{
+ 	order:5;
+}
+.mail {
+	order:3;	
 }
 
 .msj {
-	grid-area: 0 / 1 / 2 / 2;
+	order:2;	
+}
+
+.hora {
+	order:7;	
 }
 
 /* -------FOOTER--------*/
@@ -66,13 +75,14 @@ footer {
 }
 
 .contacto {
-	display: grid;
-	grid-template-columns: 3fr 2fr;
-	grid-template-rows: 1fr 1fr;
+	padding-left:150px;
+
 
 }
 
 .social {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 3fr;
+	padding-left: 150px;
+	
 }
