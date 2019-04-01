@@ -2,38 +2,31 @@
 <html>
 
 <head>
-
-	<meta name="Consulta Aulas AcroYoga Curitiba" content="Consultar Aulas Acroyoga" />
+	<title>AcroYoga Raiz</title>
+	<meta name="Consulta Aulas AcroYoga Curitiba" content="Yoga Acrobacia Masagem Thai Curitiba Cwb" />
 	<meta charset="utf-8" />
 	<meta lang="esp" />
-	
-	<title>AcroYoga Raiz</title>
+
 	<link rel="shotrcut icon" typ="image/x-icon" href="img/logo.png"> 
 	<link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/textos.css">
-	
 </head>
 	
 <body>
-	
 	<header>
-			
-			<img src="img/logo.png" alt="Logo" title="Logo Acroyoga Raiz" width="120" class="logo">
-			
-			<div class="title">
-				<h1>AcroYoga Raiz</h1>
-				<h2>Yoga - Acrobacia - Masaje Thai - Comunidad</h2>
-			</div>
-
-			<nav class="nav">
-				<a href="#">Inicio</a>
-				<a href="#">Clases</a>
-				<a href="#">Contacto</a>	
-			</nav>
-
+		<img src="img/logo.png" alt="Logo" title="Logo Acroyoga Raiz" width="120" class="logo">
+		<div class="title" id=#top>
+			<h1>AcroYoga Raiz</h1>
+			<h2>Yoga - Acrobacia - Masaje Thai - Comunidad</h2>
+		</div>
+		<nav class="nav">
+			<a href="#top">Inicio</a>
+			<a href="#contact">Contato</a>
+			<a href="#social">Social</a>
+		</nav>
 	</header><hr>
-
+	<!---Text-->
 	<main class="text">
 		<h3>Quem pode fazer Acroyoga?</h3><br>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et elit tincidunt, tincidunt nulla a, aliquet risus. Etiam sed dapibus lectus. Nulla id quam quis lacus scelerisque sodales. Nullam elementum consequat sem. Cras tristique molestie massa, sed convallis ipsum malesuada a. </p> 
@@ -42,9 +35,8 @@
 		<hr>
 	</main>
 
-<!---   FORM -->
-
-	<div>
+	<!---FORM-->
+	<div id="contact">
 		<h4>Consultanos</h4>
 			<form  class="form" method=POST>
 
@@ -55,7 +47,6 @@
 					<input type="email" placeholder="Correo" id="correo"><br>
 					<label for="cel" id="cel"> Telefono: </label><br>
 					<input type="telefono"  placeholder="Telefono de contacto" id="cel">
-
 				</div>
 
 				<div class="msj">
@@ -67,36 +58,38 @@
 					<label for="msj" id="msj"> Consulta: </label><br>
 					<textarea type="input" placeholder="Tu consulta aqui"></textarea>
 				</div>
-
-				
 	
-			</form>
-			
+			</form> 
+			<!---boton-->
 			<div align="center">
 				<input type="submit" class="boton" value="ENVIA TU CONSULTA"> 
 			</div>
-	
-	</div><hr>
-	<h3>Sigue nuestras redes</h3>
-	
-<footer>
-	
-	<div class="contacto">
-	<p>Direccion: <a href="https://goo.gl/maps/XwunmY6G2zz" target="_blank">Rua Amintas de Barros 757</a></p>
-	<p>Correo: <a href="mailto:ramiro.acroyoga@gmail.com" title="Envianos un correo">ramiro.acroyoga@gmail.com</a></p>
-	<p>Whatsapp: <a target="_blank" href="#">(41) 995786868</a></p>
 	</div>
+	<!--GOOGLE FORM---
+	<div class="gform">
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScbQ3--CY5jWAN_BfAOL1JaR2BmXDMb_5Y4O6-ovCN_TN6Rmw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+	</div>-->
+	
+	<hr><h3>Sigue nuestras redes</h3>
+	
+	<footer>
+	
+		<div class="contacto">
+			<p>Endereço: <a href="https://goo.gl/maps/XwunmY6G2zz" target="_blank">Rua Amintas de Barros 757</a></p>
+			<p>E-mail: <a href="mailto:ramiro.acroyoga@gmail.com" title="Envianos un correo">  ramiro.acroyoga@gmail.com</a></p>
+			<p>Whatsapp: <a target="_blank" href="#">(41) 995786868</a></p>
+		</div>
 
-		<div class="social">		
-		<div class="face">
-			<a href="https://www.facebook.com/AcroRaiz" target="_blank"><img src="img/face.png" alt="FaceBook" title="Icono FaceBook" width="70"></a>
+		<div class="social" id="social">		
+			<div class="face">
+				<a href="https://www.facebook.com/AcroRaiz" target="_blank"><img src="img/face.png" alt="FaceBook" title="Nosso FaceBook" width="70"></a>
+			</div>
+			<div class="insta">
+				<a href="https://www.instagram.com/acroraiz" target="_blank"><img src="img/insta.png" alt="Instagram" title="Nosso Instagram" width="70"></a>
+			</div>
 		</div>
-		<div class="insta">
-			<a href="https://www.instagram.com/acroraiz" target="_blank"><img src="img/insta.png" alt="Instagram" title="Icono Instagram" width="70"></a>
-		</div>
-	</div>
 	
-</footer>
+	</footer>
 
 </body>
 </html>
